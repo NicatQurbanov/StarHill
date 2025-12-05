@@ -1,0 +1,92 @@
+body {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body a {
+  text-decoration: none;
+}
+body section {
+  margin: 20px auto 0;
+  width: 80%;
+  height: 100vh;
+}
+body section.first {
+  margin: 0;
+  width: 100%;
+}
+body section.first .wrapper {
+  margin: 20px auto 0;
+  width: 80%;
+}
+body section.first a {
+  color: white;
+}
+body section.first {
+  color: white;
+  background: url(Images/1674d510f98ca1c0dfd08dd73311f7fbb18716ba.jpg) no-repeat;
+  background-size: cover;
+  padding: 1px;
+}
+body section.first .header-container {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+}
+body section.first .header-container .header-links-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+}
+body section.first .header-container select {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin-left: 40px;
+}
+body section.first .first-article {
+  margin: 150px 0 0 0;
+  width: 65%;
+  line-height: 1.3;
+}
+body section.first .first-article-header {
+  font-size: 40px;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+body section.first .first-article-par {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+body section.second {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+}
+body section.second .second-wrapper {
+  padding: 50px;
+}
+body section.second .second-wrapper .second-header {
+  font-size: 40px;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 600;
+  color: #00095E;
+}
+body section.second .second-wrapper .second-par {
+  text-align: justify;
+  line-height: 1.3;
+}
+body section.second .second-wrapper img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */

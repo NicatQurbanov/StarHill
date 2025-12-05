@@ -1,0 +1,27 @@
+@mixin flex($ali: center, $jus: center, $dir: row, $gap: 0px) {
+    display: flex;
+    justify-content: $jus;
+    flex-direction: $dir;
+    gap: $gap;
+    align-items: $ali;
+}
+
+@mixin centering($mar: 0 auto, $wdt) {
+    margin: $mar;
+    width: $wdt;
+}
+
+@mixin header() {
+    font-size: 40px;
+    font-family: "Playfair Display",sans-serif;
+    font-weight: 600;
+}
+
+@mixin text() {
+
+}
+
+@mixin grid() {
+
+}
+
