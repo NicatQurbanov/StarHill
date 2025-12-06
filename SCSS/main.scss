@@ -96,6 +96,36 @@ body {
                 color: white;
                 
              }
+             .services-container {
+                color: white;
+                @include variables.flex($gap: 30px, $jus: space-between);
+                flex-wrap: wrap;
+                margin-top: 100px;
+                .service-item {
+                    height: 90px;
+                    display: grid;
+                    align-items: center;
+                    column-gap: 20px;
+                    grid-template-columns: 1fr 4fr;
+                    grid-template-rows: 1fr 1fr;
+                    background-color: #FFFFFF33;
+                    padding: 15px 33px;
+                    border-radius: 10px;
+                    box-shadow: -8px 10px 21px 0px #FFFFFF0D;
+                    width: 250px;
+                    p {
+                        font-size: 10px;
+                        line-height: 0.9rem;
+                    }
+                    img {
+                        grid-row: span 2;
+                    }
+                    h3 {
+                        font-weight: 600;
+                        font-size: 13px;
+                    }
+                }
+             }
             }
         }
         &.fourth {

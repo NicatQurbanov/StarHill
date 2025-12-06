@@ -118,6 +118,40 @@ body section.third .wrapper .third-header {
   margin-top: 80px;
   color: white;
 }
+body section.third .wrapper .services-container {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+body section.third .wrapper .services-container .service-item {
+  height: 90px;
+  display: grid;
+  align-items: center;
+  column-gap: 20px;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 15px 33px;
+  border-radius: 10px;
+  box-shadow: -8px 10px 21px 0px rgba(255, 255, 255, 0.0509803922);
+  width: 250px;
+}
+body section.third .wrapper .services-container .service-item p {
+  font-size: 10px;
+  line-height: 0.9rem;
+}
+body section.third .wrapper .services-container .service-item img {
+  grid-row: span 2;
+}
+body section.third .wrapper .services-container .service-item h3 {
+  font-weight: 600;
+  font-size: 13px;
+}
 body section.fourth .fourthHeader {
   font-size: 40px;
   font-family: "Playfair Display", sans-serif;

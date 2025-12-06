@@ -1,32 +1,28 @@
-export servicesArr = [
+export const servicesArr = [
     {
-        url: "",
+        url: "Images/Component 3.png",
         header: "SUSTAİNABİLİTY",
-        par: "",
     },
     {
-        url: "",
+        url: "Images/2.png",
         header: "PRIVATE CLIENT SERVICES",
-        par: "",
     },
     {
-        url: "",
+        url: "Images/4.png",
         header: "CORPORATE SERVICES",
-        par: "",
     },
     {
-        url: "",
+        url: "Images/5.png",
         header: "CAPACITY BUILDING",
-        par: "",
     },
     {
-        url: "",
+        url: "Images/6.png",
         header: "EDUCATION",
-        par: "",
     },
     {
-        url: "",
+        url: "Images/7.png",
         header: "BUSINESS DEVELOPMENT",
-        par: "",
     },
 ]
+
+export const servicePar = "Korem ipsum dolor sit amet,onsectetur adipiscing elit. Nunc vulputate libero et lit. Nunc vulputate libero et ";
